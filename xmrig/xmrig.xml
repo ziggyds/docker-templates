@@ -3,8 +3,8 @@
   <Name>XMRig</Name>
   <Repository>ziggyds/xmrig:latest</Repository>
   <Registry>https://hub.docker.com/r/lnxd/xmrig</Registry>
-  <Overview>XMRig for CPU mining on unraid.</Overview>
-  <Description>XMRig for CPU mining on unraid.</Description>
+  <Overview>XMRig for CPU mining on unraid. Edit ExtraParams with xmnrig arguments.</Overview>
+  <Description>XMRig for CPU mining on unraid. Edit ExtraParams with xmnrig arguments.</Description>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
