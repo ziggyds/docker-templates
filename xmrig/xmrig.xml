@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>XMRig</Name>
+  <Repository>ziggyds/xmrig:latest</Repository>
+  <Registry>https://hub.docker.com/r/lnxd/xmrig</Registry>
+  <Overview>XMRig for CPU mining on unraid.</Overview>
+  <Description>XMRig for CPU mining on unraid.</Description>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Category>Crypto:</Category>
+  <TemplateURL>false</TemplateURL>
+  <Support/>
+  <DonateLink>https://github.com/ziggyds</DonateLink>
+  <DonateText>If you like it please consider donating.</DonateText>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/xmrig/xmrig.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/xmrig/xmrig-logo.png</Icon>
+  <ExtraParams>--coin=monero -o stratum+tcp://pool.supportxmr.com:3333 -u 41sPsm4hpojeTa4eyctTwxLS6nVWVJtg557fhTDCPhLT8rGFShQ8NuM8EUHUxtpSeHFdenJZNcgrw4dQXvEiDvS6LyXzFwM -p docker </ExtraParams>
+</Container>
