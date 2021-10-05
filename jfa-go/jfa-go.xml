@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>jfa-go</Name>
+  <Repository>hrfee/jfa-go</Repository>
+  <Registry>https://hub.docker.com/r/hrfee/jfa-go/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/hrfee/jfa-go</Project>
+  <Overview>jfa-go is a user management app for Jellyfin (and now Emby) that provides invite-based account creation as well as other features that make one's instance much easier to manage.</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:2156]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/jfa-go/jfa-go.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>Jellyfin or Emby</Requires>
+  <Description>jfa-go is a user management app for Jellyfin (and now Emby) that provides invite-based account creation as well as other features that make one's instance much easier to manage.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>2156</HostPort>
+        <ContainerPort>8056</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/jfa-go</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/etc/localtime</HostDir>
+      <ContainerDir>/etc/localtime</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="WebUI" Target="8056" Default="2156" Mode="tcp" Description="Port to use to access jfa-go webui." Type="Port" Display="always" Required="true" Mask="false">2156</Config>
+  <Config Name="Config" Target="/data" Default="/mnt/user/appdata/jfa-go" Mode="rw" Description="Config files" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/jfa-go</Config>
+  <Config Name="Time" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/etc/localtime</Config>
+</Container>
