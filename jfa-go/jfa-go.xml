@@ -12,7 +12,7 @@
   <Overview>jfa-go is a user management app for Jellyfin (and now Emby) that provides invite-based account creation as well as other features that make one's instance much easier to manage.</Overview>
   <Category>Tools: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:2156]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/jfa-go/jfa-go.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/jfa-go/jfa-go.png</Icon>
   <ExtraParams/>
   <PostArgs/>
