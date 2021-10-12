@@ -13,7 +13,7 @@
   <Support/>
   <DonateLink>https://github.com/ziggyds</DonateLink>
   <DonateText>If you like it please consider donating.</DonateText>
-  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/xmrig/xmrig.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/xmrig/xmrig-logo.png</Icon>
-  <ExtraParams>--coin=monero -o stratum+tcp://pool.supportxmr.com:3333 -u 41sPsm4hpojeTa4eyctTwxLS6nVWVJtg557fhTDCPhLT8rGFShQ8NuM8EUHUxtpSeHFdenJZNcgrw4dQXvEiDvS6LyXzFwM -p docker </ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/templates/xmrig.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/templates/xmrig-logo.png</Icon>
+  <ExtraParams>--coin=monero -o stratum+tcp://pool.supportxmr.com:3333 -u 41sPsm4hpojeTa4eyctTwxLS6nVWVJtg557fhTDCPhLT8rGFShQ8NuM8EUHUxtpSeHFdenJZNcgrw4dQXvEiDvS6LyXzFwM -p docker --http-port=8888 --api-worker-id=unraid --http-access-token=token --http-no-restricted</ExtraParams>
 </Container>
