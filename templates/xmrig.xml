@@ -9,7 +9,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Category>Crypto:</Category>
-  <TemplateURL>false</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/xmrig/xmrig.xml</TemplateURL>
   <Support/>
   <DonateLink>https://github.com/ziggyds</DonateLink>
   <DonateText>If you like it please consider donating.</DonateText>
