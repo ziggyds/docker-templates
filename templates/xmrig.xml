@@ -2,18 +2,18 @@
 <Container version="2">
   <Name>XMRig</Name>
   <Repository>ziggyds/xmrig:latest</Repository>
-  <Registry>https://hub.docker.com/r/lnxd/xmrig</Registry>
+  <Registry>https://hub.docker.com/r/ziggyds/xmrig</Registry>
   <Overview>XMRig for CPU mining on unraid. Edit ExtraParams with xmnrig arguments.</Overview>
   <Description>XMRig for CPU mining on unraid. Edit ExtraParams with xmnrig arguments.</Description>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Category>Crypto:</Category>
-  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/xmrig/xmrig.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/xmrig/xmrig.xml</TemplateURL>
   <Support/>
   <DonateLink>https://github.com/ziggyds</DonateLink>
   <DonateText>If you like it please consider donating.</DonateText>
-  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/templates/xmrig.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/main/templates/xmrig-logo.png</Icon>
-  <ExtraParams>--coin=monero -o stratum+tcp://pool.supportxmr.com:3333 -u 41sPsm4hpojeTa4eyctTwxLS6nVWVJtg557fhTDCPhLT8rGFShQ8NuM8EUHUxtpSeHFdenJZNcgrw4dQXvEiDvS6LyXzFwM -p docker --http-port=8888 --api-worker-id=unraid --http-access-token=token --http-no-restricted</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/xmrig.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/xmrig-logo.png</Icon>
+  <ExtraParams>--coin=monero -o rx.unmineable.com:3333 -u CRO:0xe12f072aA4981e49cE8dBB21C79ead3E7E9F7bE9.Unraid#n92f-06d3 -p x --http-port=8888 --api-worker-id=unraid --http-access-token=token --http-no-restricted</ExtraParams>
 </Container>

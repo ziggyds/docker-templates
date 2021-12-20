@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Honeygain-daily</Name>
+  <Repository>ziggyds/honeygain-daily:latest</Repository>
+  <Registry>https://hub.docker.com/r/ziggyds/honeygain-daily</Registry>
+  <Overview>Automatically claim the daily credits.</Overview>
+  <Description>Automatically claim the daily credits.</Description>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Category>Other:</Category>
+  <Support/>
+  <DonateLink>https://github.com/ziggyds</DonateLink>
+  <DonateText>If you like it please consider donating.</DonateText>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/honeygain-daily.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/honeygain-daily.png</Icon>
+  <ExtraParams> True</ExtraParams>
+</Container>
