@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Cryptolio</Name>
+  <Repository>machines/filestash:latest</Repository>
+  <Registry>https://hub.docker.com/r/xtrendence/cryptofolio/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Xtrendence/Cryptofolio</Project>
+  <Overview>Crypto Portfolio</Overview>
+  <Category>Crypto: Cryptocurrency:</Category>
+  <WebUI>http://[IP]:[PORT:8180]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/cryptolio.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/cryptolio-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <DonateLink>https://github.com/ziggyds</DonateLink>
+  <DonateText>If you like it please consider donating.</DonateText>
+  <Description>Crypto Portfolio</Description>
+  <Config Name="Port" Target="80" Default="8180" Mode="tcp" Description="Port" Type="Port" Display="always" Required="true" Mask="false">8180</Config>
+  <Config Name="Appdata" Target="/var/www/html" Default="/mnt/user/appdata/cryptolio/" Mode="rw" Description="Container Path: /var/www/html" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cryptolio/</Config>
+</Container>
