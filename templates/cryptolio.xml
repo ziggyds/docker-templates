@@ -18,6 +18,18 @@
   <DonateLink>https://github.com/ziggyds</DonateLink>
   <DonateText>If you like it please consider donating.</DonateText>
   <Description>Crypto Portfolio</Description>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
   <Config Name="Port" Target="8080" Default="8180" Mode="tcp" Description="Port" Type="Port" Display="always" Required="true" Mask="false">8180</Config>
   <Config Name="Appdata" Target="/var/www/html" Default="/mnt/user/appdata/cryptolio/" Mode="rw" Description="Container Path: /var/www/html" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cryptolio/</Config>
 </Container>
