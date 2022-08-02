@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>Peer2Profit</Name>
+  <Repository>peer2profit/peer2profit_linux</Repository>
+  <Registry>https://hub.docker.com/r/peer2profit/peer2profit_linux</Registry>
+  <Branch>
+  <Tag>latest</Tag>
+  <TagDescription>Latest release of peer2profit_linux</TagDescription>
+  </Branch>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Xtrendence/Cryptofolio</Project>
+  <Overview>Earn with peer2profit</Overview>
+  <Category>Other:</Category>
+  <TemplateURL>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/peer2profit.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ziggyds/unraid-templates/master/templates/peer2profit-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <DonateLink>https://github.com/ziggyds</DonateLink>
+  <DonateText>If you like it please consider donating.</DonateText>
+  <Description>Peer2Profit container</Description>
+  <Config 
+       Type="Variable" 
+       Name="Peer2profit email" 
+       Target="P2P_EMAIL" 
+       Default="" 
+       Description="Peer2profit email" 
+       Mask="false" 
+       Display="always" 
+       Required="true">Username</Config>
+</Container>
